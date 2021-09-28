@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: #3d1e61;
+    height: 650px;
+}
+.head h1{
+    padding-top: 80px;
+    color: azure;
+    text-align: center;
+    font-size: 50px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 190px;
+}
+.icons div{
+    margin-top: 150px;
+    
+    margin: 10px 270px 20px 90px;
+}
+.flight{
+    width: 80px;
+    height: 10px;
+    background-color: #646266;
+    border-radius: 10px 50px 10px 10px;
+}
+.wings{
+    width: 10px;
+    height: 50px;
+    border-radius: 10px 40px 10px 40px;
+    background-color: #646266;
+    position: relative;
+    top: -30px;
+    right: 50px;
+}
+.fins{
+    width: 10px;
+    height: 10px;
+    background-color: #646266;
+    position: relative;
+    top: -90px;
+    right: 80px;
+    border-radius: 20px 20px 0px 0px;
+}
+.flight:hover{
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 3s;
+}
+.wings:hover{
+    background-color: aliceblue;
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 3s;
+}
+.fins:hover{
+    background-color: aliceblue;
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 3s;
+}
+@keyframes anim1{
+    0%{background-color: aliceblue; top: 0px; left: 0px;}
+    25%{background-color: aliceblue; top: -5px; left: 4px;}
+    50%{background-color: aliceblue; top: -10px; left: 8px;}
+    75%{background-color: aliceblue; top: -15px; left: 12px;}
+    100%{background-color: aliceblue; top: -20px; left: 16px;}
+}
+.train{
+    width: 80px;
+    height: 10px;
+    background-color: #646266;
+    border-radius: 10px 50px 10px 10px;
+    margin-left: 90px;
+}
+.ab{
+    width: 5px;
+    height: 5px;
+    background-color: #3d1e61;;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    top: -10px;
+    right: 40px;
+}
+.bc{
+    width: 5px;
+    height: 5px;
+    background-color: #3d1e61;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    top: -35px;
+    right: 70px;
+}
+.train:hover{
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 2s;
+}
+@keyframes anim2{
+    0%{background-color: aliceblue; top: 0px; left: 0px;}
+    25%{background-color: aliceblue; top: 0px; left: 4px;}
+    50%{background-color: aliceblue; top: 0px; left: 8px;}
+    75%{background-color: aliceblue; top: 0px; left: 12px;}
+    100%{background-color: aliceblue; top: 0px; left: 16px;}
+}
+.car{
+    width: 50px;
+    height: 10px;
+    background-color: #646266;
+    border-radius: 20px 20px 0px 0px;
+}
+.bonet{
+    width: 80px;
+    height: 10px;
+    background-color: #646266;
+    position: relative;
+    left: -100px;
+    border-radius: 10px 10px 0px 0px;
+}
+.whl1{
+    width: 10px;
+    height: 10px;
+    background-color: #646266;
+    position: relative;
+    top: -23px;
+    right: 40px;
+    border-radius: 0px 0px 20px 20px;
+}
+.whl2{
+    width: 10px;
+    height: 10px;
+    background-color: #646266;
+    position: relative;
+    top: -52px;
+    right: 90px;
+    border-radius: 0px 0px 20px 20px;
+}
+.car:hover{
+    position: relative;
+    animation-name: anim3;
+    animation-duration: 2s;
+}
+@keyframes anim3 {
+    0%{background-color: aliceblue; top: 0px; left: 0px;}
+    25%{background-color: aliceblue; top: 0px; left: 10px;}
+    50%{background-color: aliceblue; top: 0px; left: 20px;}
+    75%{background-color: aliceblue; top: 0px; left: 30px;}
+    100%{background-color: aliceblue; top: 0px; left: 40px;}
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.l{
+    font-size: 50px;
+    margin-top: 180px;
+    padding: 50px 120px;
+    color: #646266;
+    text-decoration: none;
+}
+.l:hover{
+    margin-top: 180px;
+    padding: 50px 120px;
+    color: azure;
+    cursor: pointer;
+}

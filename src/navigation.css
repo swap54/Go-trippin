@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: #3d1e61;
+    width: 100%;
+    height: 200px;
+    
+    justify-content: center;
+}
+.navin{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 88px;
+}
+.lnk{
+    text-decoration: none;
+    color: #646266;
+    font-size: 40px;
+    padding: 0px 210px;
+}
+.lnk:hover{
+    color: aliceblue;
+}
